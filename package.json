@@ -1,0 +1,16 @@
+{
+  "name": "mangrove",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@supercharge/promise-pool": "^3.2.0",
+    "dotenv": "^16.4.5",
+    "viem": "^2.12.0"
+  }
+}
